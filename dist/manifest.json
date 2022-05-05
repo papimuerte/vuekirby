@@ -1,0 +1,109 @@
+{
+  "main.js": {
+    "file": "assets/main.7970962f.js",
+    "src": "main.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor.b677c224.js"
+    ],
+    "dynamicImports": [
+      "views/About.vue",
+      "views/Album.vue",
+      "views/Error.vue",
+      "views/Home.vue",
+      "views/Note.vue",
+      "views/Notes.vue",
+      "views/Photography.vue"
+    ],
+    "css": [
+      "assets/main.5ade4a1f.css"
+    ]
+  },
+  "_vendor.b677c224.js": {
+    "file": "assets/vendor.b677c224.js"
+  },
+  "views/About.vue": {
+    "file": "assets/About.5013b4d9.js",
+    "src": "views/About.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js",
+      "_vendor.b677c224.js"
+    ],
+    "css": [
+      "assets/About.4c3c5c15.css"
+    ]
+  },
+  "views/Album.vue": {
+    "file": "assets/Album.3f5e0f7b.js",
+    "src": "views/Album.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js",
+      "_vendor.b677c224.js"
+    ],
+    "css": [
+      "assets/Album.56346695.css"
+    ]
+  },
+  "views/Error.vue": {
+    "file": "assets/Error.fb494baa.js",
+    "src": "views/Error.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js",
+      "_vendor.b677c224.js"
+    ],
+    "css": [
+      "assets/Error.e30c41b7.css"
+    ]
+  },
+  "views/Home.vue": {
+    "file": "assets/Home.b155c327.js",
+    "src": "views/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js",
+      "_vendor.b677c224.js"
+    ],
+    "css": [
+      "assets/Home.e021014d.css"
+    ]
+  },
+  "views/Note.vue": {
+    "file": "assets/Note.a11e45c2.js",
+    "src": "views/Note.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js",
+      "_vendor.b677c224.js"
+    ],
+    "css": [
+      "assets/Note.99cbea75.css"
+    ]
+  },
+  "views/Notes.vue": {
+    "file": "assets/Notes.22ebccca.js",
+    "src": "views/Notes.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js",
+      "_vendor.b677c224.js"
+    ],
+    "css": [
+      "assets/Notes.6298f7e3.css"
+    ]
+  },
+  "views/Photography.vue": {
+    "file": "assets/Photography.788608f9.js",
+    "src": "views/Photography.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js",
+      "_vendor.b677c224.js"
+    ],
+    "css": [
+      "assets/Photography.fbab1377.css"
+    ]
+  }
+}
