@@ -1,0 +1,19 @@
+Title: VueJs
+
+----
+
+Cover:
+
+- cheesy-autumn.jpg
+
+----
+
+Headline: VueJS
+
+----
+
+Description: Hug them if you like. They might not appreciate it though.
+
+----
+
+Tags: VueJs
