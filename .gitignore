@@ -24,3 +24,6 @@ vendor
 /public/dist
 /public/service-worker.js
 .vercel
+
+# Local Netlify folder
+.netlify
