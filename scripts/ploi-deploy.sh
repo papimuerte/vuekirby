@@ -23,4 +23,4 @@ fi
 # Clean cache
 rm -rf storage/cache/{DOMAIN}
 
-echo "🚀 Application deployed!"
+echo "🚀 Application deployed"
