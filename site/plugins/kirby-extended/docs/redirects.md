@@ -26,8 +26,8 @@ return [
         'old/reference/(:all?)'     => 'new/reference/$1',
 
         // Redirects with logic
-        'photography/(:any)/(:all)' => function ($category, $uid) {
-            if ($page = page('photography')->grandChildren()->listed()->findBy('uid', $uid)) {
+        'works/(:any)/(:all)' => function ($category, $uid) {
+            if ($page = page('works')->grandChildren()->listed()->findBy('uid', $uid)) {
                 return $page->url();
             }
 

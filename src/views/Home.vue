@@ -1,8 +1,8 @@
 <template>
   <Intro>{{ page.title }}</Intro>
 
-  <ul v-if="photography.isReady" class="grid">
-    <li v-for="album in photography.children" :key="album.uri">
+  <ul v-if="works.isReady" class="grid">
+    <li v-for="album in works.children" :key="album.uri">
       <router-link :to="`/${album.uri}`">
         <figure>
           <img :src="album.cover.urlHome" :alt="album.cover.alt" />
@@ -25,19 +25,19 @@ import { usePage } from "~/hooks";
 export default {
   setup() {
     const page = usePage();
-    const photography = usePage("photography");
+    const works = usePage("works");
 
     // Example of `isReadyPromise()` page method
     (async () => {
-      await photography.isReadyPromise();
+      await works.isReadyPromise();
       // Do something with the reactive page object
-      console.log("Photography page data has been loaded.");
-      console.log(photography.title);
+      console.log("works page data has been loaded.");
+      console.log(works.title);
     })();
 
     return {
       page,
-      photography,
+      works,
     };
   },
 };
