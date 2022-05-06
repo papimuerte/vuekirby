@@ -6,8 +6,8 @@
 
 <style lang="scss">
 .intro {
-  padding: 10vh 0;
-  text-align: center;
+  padding: 10vh 0 2vh 0;
+  text-align: start;
 }
 
 .intro {

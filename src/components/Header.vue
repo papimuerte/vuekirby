@@ -42,6 +42,7 @@ const route = useRoute();
     font-weight: 700;
   }
   .logo {
+    color: var(--primary);
     display: block;
     margin-bottom: 1.5rem;
     padding: 0.5rem 0;

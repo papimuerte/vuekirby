@@ -1,7 +1,7 @@
 // Varibales
 :root {
   --content-width: 65rem;
-  --primary-color: #f9322c;
+  --primary: #f9322c;
 }
 // Apples to all
 * {
@@ -103,4 +103,15 @@ main {
   img {
     width: 100%;
   }
+}
+
+p {
+  margin-bottom: 1.5em;
+  &.hero-subheadline {
+    text-align: start;
+  }
+}
+
+.intro-headline-primary {
+  color: var(--primary);
 }
