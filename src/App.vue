@@ -1,7 +1,5 @@
 <template>
-  <SkipToContentLink />
   <Announcer />
-
   <div class="page">
     <Header />
     <main id="main" tabindex="-1">
