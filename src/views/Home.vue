@@ -1,9 +1,9 @@
 <template>
   <div class="intro">
-    <h1>
+    <h1 class="display-headline bold">
       I’m a fullstack web developer
       <br />
-      <span class="intro-headline-primary">from the Germany.</span>
+      <span class="display-headline bold primary">from the Germany.</span>
     </h1>
   </div>
   <p class="hero-subheadline">
@@ -66,8 +66,9 @@ export default {
     --cols: 1;
     --rows: 1;
     overflow: hidden;
-    background: #000;
     line-height: 0;
+    border-radius: var(--border-radius);
+    border: var(--border);
     &:first-child {
       --cols: 2;
       --rows: 2;
@@ -99,8 +100,8 @@ export default {
   }
   figcaption {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: felx-start;
     position: absolute;
     color: #fff;
     top: 0;
@@ -109,11 +110,11 @@ export default {
     left: 0;
     line-height: 1;
     text-align: center;
-    background: rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
     font-size: 0.875rem;
     letter-spacing: 0.125em;
     font-weight: 600;
+    padding: 1rem;
   }
 }
 @media screen and (min-width: 45em) {

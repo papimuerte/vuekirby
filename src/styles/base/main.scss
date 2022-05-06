@@ -1,0 +1,108 @@
+// Varibales
+:root {
+  --content-width: 65rem;
+  --primary: #f9322c;
+  --border: 2px solid #000;
+  --border-radius: 6px;
+}
+// Apples to all
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  &:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  &:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+// Base
+html {
+  font-family: "JetBrains Mono", system-ui, -apple-system, "Segoe UI", Roboto,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+li {
+  list-style: none;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+strong {
+  font-weight: 500;
+}
+b {
+  font-weight: 500;
+}
+img {
+  width: 100%;
+}
+// Page
+.page {
+  padding: 5vh 5vw 10vh;
+  > * {
+    max-width: var(--content-width);
+    margin: 0 auto;
+  }
+}
+// Content
+main {
+  min-height: calc(100vh - 10rem);
+  &:focus {
+    outline: none;
+  }
+}
+// Tags
+.tags {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+// Typo Blog
+.text {
+  line-height: 1.5em;
+  p {
+    margin-bottom: 1.5em;
+  }
+  figure {
+    margin-bottom: 1.5em;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  ul {
+    margin-bottom: 1.5em;
+  }
+  ol {
+    margin-bottom: 1.5em;
+  }
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  > * {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  a {
+    position: relative;
+    white-space: nowrap;
+    font-weight: 500;
+    z-index: 1;
+    display: inline-block;
+    border-bottom: 2px solid #000;
+  }
+  img {
+    width: 100%;
+  }
+}

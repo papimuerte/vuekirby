@@ -1,0 +1,56 @@
+.intro {
+  border-top: var(--border);
+  margin: 10vh 0 2vh 0;
+  text-align: start;
+  h1 {
+    position: relative;
+    margin: 1rem 0;
+    font-size: calc(1vw + 2rem);
+    z-index: 1;
+  }
+  .display-headline {
+    font-family: "JetBrains Mono";
+    letter-spacing: -0.1rem;
+    font-style: normal;
+    &.bold {
+      font-weight: 900;
+    }
+    &.primary {
+      color: var(--primary);
+    }
+  }
+}
+
+p {
+  margin-bottom: 1.5em;
+  &.hero-subheadline {
+    text-align: start;
+  }
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("src/fonts/JetBrainsMono-Bold.woff2") format("woff2"),
+    url("src/fonts/JetBrainsMono-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("src/fonts/JetBrainsMono-SemiBold.woff2") format("woff2"),
+    url("src/fonts/JetBrainsMono-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("src/fonts/JetBrainsMono-Regular.woff2") format("woff2"),
+    url("src/fonts/JetBrainsMono-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
