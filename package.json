@@ -26,6 +26,7 @@
     "eslint-plugin-vue": "^8.5.0",
     "nanoid": "^3.3.2",
     "prettier": "2.6.1",
+    "sass": "^1.51.0",
     "shx": "^0.3.4",
     "unplugin-vue-components": "^0.18.5",
     "vite": "^2.8.6"
