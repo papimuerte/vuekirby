@@ -1,0 +1,109 @@
+{
+  "main.js": {
+    "file": "assets/main.e52c617b.js",
+    "src": "main.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor.5679a34a.js"
+    ],
+    "dynamicImports": [
+      "views/About.vue",
+      "views/Album.vue",
+      "views/Error.vue",
+      "views/Home.vue",
+      "views/Note.vue",
+      "views/Notes.vue",
+      "views/Works.vue"
+    ],
+    "css": [
+      "assets/main.675fd237.css"
+    ]
+  },
+  "_vendor.5679a34a.js": {
+    "file": "assets/vendor.5679a34a.js"
+  },
+  "views/About.vue": {
+    "file": "assets/About.f8f64e58.js",
+    "src": "views/About.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js",
+      "_vendor.5679a34a.js"
+    ],
+    "css": [
+      "assets/About.4c3c5c15.css"
+    ]
+  },
+  "views/Album.vue": {
+    "file": "assets/Album.4810328c.js",
+    "src": "views/Album.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js",
+      "_vendor.5679a34a.js"
+    ],
+    "css": [
+      "assets/Album.56346695.css"
+    ]
+  },
+  "views/Error.vue": {
+    "file": "assets/Error.320ec808.js",
+    "src": "views/Error.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js",
+      "_vendor.5679a34a.js"
+    ],
+    "css": [
+      "assets/Error.e30c41b7.css"
+    ]
+  },
+  "views/Home.vue": {
+    "file": "assets/Home.0af43086.js",
+    "src": "views/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js",
+      "_vendor.5679a34a.js"
+    ],
+    "css": [
+      "assets/Home.160fdefc.css"
+    ]
+  },
+  "views/Note.vue": {
+    "file": "assets/Note.251a4a90.js",
+    "src": "views/Note.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js",
+      "_vendor.5679a34a.js"
+    ],
+    "css": [
+      "assets/Note.99cbea75.css"
+    ]
+  },
+  "views/Notes.vue": {
+    "file": "assets/Notes.0e4df474.js",
+    "src": "views/Notes.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js",
+      "_vendor.5679a34a.js"
+    ],
+    "css": [
+      "assets/Notes.6298f7e3.css"
+    ]
+  },
+  "views/Works.vue": {
+    "file": "assets/Works.4e02e29d.js",
+    "src": "views/Works.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js",
+      "_vendor.5679a34a.js"
+    ],
+    "css": [
+      "assets/Works.803aac76.css"
+    ]
+  }
+}
