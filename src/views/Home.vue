@@ -7,9 +7,9 @@
     </h1>
   </div>
   <p class="hero-subheadline">
-    Interested in programming and to code inclusive, effective, and impactful digital
-    products. Logical approach to problem solving is my passion. Code perfectionist in the
-    best sense of the word.
+    Interested in programming and to code inclusive, effective, and impactful
+    digital products. Logical approach to problem solving is my passion. Code
+    perfectionist in the best sense of the word.
   </p>
   <ul v-if="works.isReady" class="grid">
     <li v-for="album in works.children" :key="album.uri">
