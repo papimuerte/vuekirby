@@ -3,6 +3,7 @@
 $base = dirname(__DIR__);
 
 require $base . '/vendor/autoload.php';
+/* It loads the `.env` file in the project root. */
 \KirbyExtended\Env::load($base);
 
 $kirby = new \Kirby\Cms\App([
