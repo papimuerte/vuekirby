@@ -7,7 +7,7 @@ import { nanoid } from "nanoid";
 import consola from "consola";
 
 const srcPath = "src/serviceWorker.js";
-const distPath = "public/service-worker.js";
+const distPath = "service-worker.js";
 
 async function main() {
   if (process.env.VITE_SERVICE_WORKER !== "true") return;
